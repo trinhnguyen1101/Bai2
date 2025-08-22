@@ -1,5 +1,5 @@
-# Base image: Tomcat 9 với JDK 17
-FROM tomcat:9.0-jdk17
+# Base image: Tomcat 9 với JDK 24
+FROM tomcat:9.0-jdk24
 
 # Xóa ứng dụng mặc định trong Tomcat
 RUN rm -rf /usr/local/tomcat/webapps/*
