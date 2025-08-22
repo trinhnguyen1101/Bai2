@@ -5,7 +5,7 @@ FROM tomcat:9.0-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy file WAR đã export từ Eclipse (đặt tên ROOT.war để root context)
-COPY Bt2.war /usr/local/tomcat/webapps/ROOT.war
+COPY ROOT.war /usr/local/tomcat/webapps/ROOT.war
 
 # Mở port 8080
 EXPOSE 8080
